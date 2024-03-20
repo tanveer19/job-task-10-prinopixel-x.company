@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavMobile } from "../nav-mobile";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         </Link>
       </div>
       <div>
-        <Link to="#">menu</Link>
+        <NavMobile></NavMobile>
       </div>
     </div>
   );
